@@ -1,0 +1,138 @@
+html
+{
+	color: black;
+	background-color: white;
+	font-family: verdana, helvetica, arial, san-serif;
+}
+
+pre
+{
+	font-family: courier;
+	color: black;
+	background-color: #efedda;
+	border-style: outset;
+	border-width: 1px;
+}
+
+body
+{
+	text-align: left;
+	margin: 0em 0em 1em 0em;
+	line-height: 110%;
+}
+
+h1
+{
+	color: #596d9d;
+	border-bottom: 5px solid #596d9d;
+	padding: 10px 0 10px 0;
+	text-indent: 10px;
+	text-align: center;
+}
+
+h2
+{
+	color: #596d9d;
+	text-indent: 10px;
+	border-bottom: 1px solid lightgrey;
+}
+
+h3
+{
+	color: #596d9d;
+	text-indent: 10px;
+	font-style: italic;
+}
+
+h4
+{
+	color: #596d9d;
+	text-indent: 10px;
+}
+
+p
+{
+	margin: 1em 2em 1em 2em;
+	line-height: 110%;
+}
+
+ul
+{
+	margin: 1em 2em 1em 2em;
+}
+
+code
+{
+	font-family: courier;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: #1d3565;
+	font-weight: bold;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color: #651d33;
+	font-weight: bold;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: #94776d;
+}
+
+.header
+{
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	padding: 0 0 0 1.5em;
+	color: #596d9d;
+	background-color: #dde3ef;
+}
+
+.headerTitle
+{
+	font-size: 300%;
+	font-weight: bold;
+	line-height: 1.5em;
+	color: #596d9d;
+}
+
+.headerSubTitle
+{
+	font-size: 120%;
+	color: #596d9d;
+}
+
+.menuSelected
+{
+	font-weight: bold;
+	color: #596d9d;
+	background-color: #d0d6e1;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+}
+
+.footer
+{
+	font-size: x-small;
+	font-weight: normal;
+	color: grey;
+}
+
+.prePrompt
+{
+	background-color: #dae0ef;
+}
+
+.preOutput
+{
+	background-color: #efdeda;
+}
