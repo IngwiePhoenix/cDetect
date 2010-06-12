@@ -3,8 +3,6 @@
 #
 # http://cdetect.sourceforge.net/
 #
-# $Id: configure.sh,v 1.9 2006/12/25 14:25:53 breese Exp $
-#
 # Copyright (C) 2005-2006 Bjorn Reese <breese@users.sourceforge.net>
 #
 # Permission to use, copy, modify, and distribute this software for any

@@ -2,8 +2,6 @@
 rem
 rem http://cdetect.sourceforge.net/
 rem
-rem $Id: configure.bat,v 1.1 2007/02/18 11:19:04 breese Exp $
-rem
 rem Copyright (C) 2005-2007 Bjorn Reese <breese@users.sourceforge.net>
 rem
 rem Permission to use, copy, modify, and distribute this software for any

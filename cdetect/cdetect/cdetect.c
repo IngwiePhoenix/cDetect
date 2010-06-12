@@ -3,8 +3,6 @@
  *
  * http://cdetect.sourceforge.net/
  *
- * $Id: cdetect.c,v 1.71 2007/01/27 16:07:50 breese Exp $
- *
  * Copyright (C) 2005-2010 Bjorn Reese <breese@users.sourceforge.net>
  *
  * Permission to use, copy, modify, and distribute this software for any

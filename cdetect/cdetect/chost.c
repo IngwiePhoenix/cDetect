@@ -3,8 +3,6 @@
  *
  * http://cdetect.sourceforge.net/
  *
- * $Id: chost.c,v 1.10 2007/01/27 16:07:51 breese Exp $
- *
  * Copyright (C) 2005-2006 Bjorn Reese <breese@users.sourceforge.net>
  *
  * Permission to use, copy, modify, and distribute this software for any
