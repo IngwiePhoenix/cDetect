@@ -4433,7 +4433,14 @@ cdetect_type_check_header(const char *type,
                                          &result))
             ? CDETECT_REPORT_FOUND
             : CDETECT_REPORT_NULL;
-
+		
+		cdetect_log(">>> BEGIN OF SOURCE\n");
+		cdetect_log("%s\n",sourcecode->content);
+		cdetect_log(">>> END OF SOURCE\n");
+		cdetect_log(">>> BEGIN OF OUTPUT\n");
+		cdetect_log("%s\n",result->content);
+		cdetect_log(">>> END OF OUTPUT\n");
+		
         cdetect_string_destroy(result);
         cdetect_string_destroy(link_flags);
         cdetect_string_destroy(compile_flags);
