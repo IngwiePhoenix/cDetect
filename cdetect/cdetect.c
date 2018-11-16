@@ -146,9 +146,19 @@ use, and all names starting with cdetect_ and CDETECT_ for internal use.
 
 /*
  * Default values of macros
+ *
+ * @edited by Ingwie Phoenix:
+ * Allow the user to pre-define the path for chost.c, should cDetect be
+ * included as a submodule, or within a subdirectory.
+ *
+ * @fixme Might actually be easier to make this into a smart macro, where an
+ * inline code is returned that will either use this macro, or return the
+ * default path. However, this solution here, using #ifndef, isn't too bad
+ * either, really.
  */
-
+#ifndef CDETECT_CHOST_FILE
 #define CDETECT_CHOST_FILE "cdetect/chost.c"
+#endif
 
 /*************************************************************************
  *
@@ -4433,14 +4443,14 @@ cdetect_type_check_header(const char *type,
                                          &result))
             ? CDETECT_REPORT_FOUND
             : CDETECT_REPORT_NULL;
-		
+
 		cdetect_log(">>> BEGIN OF SOURCE\n");
 		cdetect_log("%s\n",sourcecode->content);
 		cdetect_log(">>> END OF SOURCE\n");
 		cdetect_log(">>> BEGIN OF OUTPUT\n");
 		cdetect_log("%s\n",result->content);
 		cdetect_log(">>> END OF OUTPUT\n");
-		
+
         cdetect_string_destroy(result);
         cdetect_string_destroy(link_flags);
         cdetect_string_destroy(compile_flags);
